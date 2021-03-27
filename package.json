@@ -1,0 +1,45 @@
+{
+  "name": "star-wars-galaxy",
+  "version": "1.0.0",
+  "description": "API Rest with NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandobritto/Star-Wars-Galaxy.git"
+  },
+  "keywords": [
+    "API",
+    "Jest",
+    "NodeJS",
+    "MongoDB",
+    "Javascript"
+  ],
+  "author": "Fernando Britto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandobritto/Star-Wars-Galaxy/issues"
+  },
+  "homepage": "https://github.com/fernandobritto/Star-Wars-Galaxy#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "mongoose": "5.12.2"
+  },
+  "devDependencies": {
+    "eslint": "7.22.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.3.1",
+    "nodemon": "2.0.7",
+    "prettier": "2.2.1",
+    "sucrase": "3.17.1"
+  }
+}
