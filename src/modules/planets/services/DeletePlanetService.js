@@ -8,7 +8,7 @@ class DeletePlanetService {
       console.log('Os registros deste planeta não foram encontrados')
     }
 
-    await Planet.remove(planetDel)
+    await Planet.findByIdAndRemove(planetDel)
   }
 }
 
